@@ -1,0 +1,26 @@
+import { GameMetadata } from './types';
+
+export const GAMES: GameMetadata[] = [
+  { id: 'pong', title: 'Retro Pong', category: 'Classic', type: 'canvas', thumbnail: 'https://placehold.co/600x400/0f172a/eab308?text=Retro+Pong&font=roboto', description: 'The original tennis arcade game.', instructions: 'Use UP/DOWN arrows to move.' },
+  { id: 'snake', title: 'Slippery Snake', category: 'Classic', type: 'canvas', thumbnail: 'https://placehold.co/600x400/0f172a/22c55e?text=Slippery+Snake&font=roboto', description: 'Eat food, grow long, don\'t hit the walls!', instructions: 'Arrow keys to move.' },
+  { id: 'breakout', title: 'Brick Breaker', category: 'Arcade', type: 'canvas', thumbnail: 'https://placehold.co/600x400/0f172a/3b82f6?text=Brick+Breaker&font=roboto', description: 'Smash all the bricks with the ball.', instructions: 'Left/Right arrows to move paddle.' },
+  { id: 'space_shooter', title: 'Space Defender', category: 'Action', type: 'canvas', thumbnail: 'https://placehold.co/600x400/0f172a/a855f7?text=Space+Defender&font=roboto', description: 'Defend earth from alien invasion.', instructions: 'Arrow keys to move, Space to shoot.' },
+  { id: 'dodgeball', title: 'Dodge Ball', category: 'Action', type: 'canvas', thumbnail: 'https://placehold.co/600x400/0f172a/ef4444?text=Dodge+Ball&font=roboto', description: 'Avoid the falling red balls.', instructions: 'Left/Right to dodge.' },
+  { id: 'flappy', title: 'Flappy Block', category: 'Action', type: 'canvas', thumbnail: 'https://placehold.co/600x400/0f172a/f59e0b?text=Flappy+Block&font=roboto', description: 'Navigate through the pipes.', instructions: 'Spacebar to jump.' },
+  { id: 'pool', title: 'Pocket Pool Lite', category: 'Sports', type: 'canvas', thumbnail: 'https://placehold.co/600x400/0f172a/10b981?text=Pool+Lite&font=roboto', description: 'Sink the red balls.', instructions: 'Click and hold to charge shot.' },
+  { id: 'tictactoe', title: 'Tic Tac Toe', category: 'Classic', type: 'dom', thumbnail: 'https://placehold.co/600x400/0f172a/94a3b8?text=Tic+Tac+Toe&font=roboto', description: 'Classic X and O game vs AI.', instructions: 'Click a square to place X.' },
+  { id: 'memory', title: 'Memory Match', category: 'Puzzle', type: 'dom', thumbnail: 'https://placehold.co/600x400/0f172a/ec4899?text=Memory+Match&font=roboto', description: 'Find matching pairs of cards.', instructions: 'Click cards to flip.' },
+  { id: 'clicker', title: 'Clicker Hero', category: 'Quick', type: 'dom', thumbnail: 'https://placehold.co/600x400/0f172a/f43f5e?text=Clicker+Hero&font=roboto', description: 'How fast can you click?', instructions: 'Click the button as fast as you can for 10s.' },
+  { id: 'reaction', title: 'Reaction Timer', category: 'Quick', type: 'dom', thumbnail: 'https://placehold.co/600x400/0f172a/8b5cf6?text=Reaction+Timer&font=roboto', description: 'Test your reflexes.', instructions: 'Click exactly when the screen turns GREEN.' },
+  { id: 'whack', title: 'Whack-a-Div', category: 'Action', type: 'dom', thumbnail: 'https://placehold.co/600x400/0f172a/d97706?text=Whack-a-Div&font=roboto', description: 'Click the yellow square!', instructions: 'Click the targets before they vanish.' },
+  { id: 'math', title: 'Math Sprint', category: 'Puzzle', type: 'dom', thumbnail: 'https://placehold.co/600x400/0f172a/0ea5e9?text=Math+Sprint&font=roboto', description: 'Solve math problems fast.', instructions: 'Select the correct answer.' },
+  { id: 'rps', title: 'Rock Paper Scissors', category: 'Classic', type: 'dom', thumbnail: 'https://placehold.co/600x400/0f172a/64748b?text=R.P.S.&font=roboto', description: 'Beat the computer.', instructions: 'Choose your weapon.' },
+  { id: 'guess', title: 'Guess Number', category: 'Puzzle', type: 'dom', thumbnail: 'https://placehold.co/600x400/0f172a/14b8a6?text=Guess+Number&font=roboto', description: 'Find the hidden number.', instructions: 'Enter a number 1-100.' },
+  { id: 'simon', title: 'Simon Says', category: 'Puzzle', type: 'dom', thumbnail: 'https://placehold.co/600x400/0f172a/f59e0b?text=Simon+Says&font=roboto', description: 'Repeat the pattern.', instructions: 'Click colors in order.' },
+  { id: 'typing', title: 'Typing Master', category: 'Puzzle', type: 'dom', thumbnail: 'https://placehold.co/600x400/0f172a/6366f1?text=Typing+Master&font=roboto', description: 'Type the words shown.', instructions: 'Type accurately and fast.' },
+  { id: 'coin', title: 'Coin Flip', category: 'Quick', type: 'dom', thumbnail: 'https://placehold.co/600x400/0f172a/fbbf24?text=Coin+Flip&font=roboto', description: 'Heads or Tails?', instructions: 'Guess the outcome.' },
+  { id: 'connect4', title: 'Connect Four', category: 'Classic', type: 'dom', thumbnail: 'https://placehold.co/600x400/0f172a/ef4444?text=Connect+Four&font=roboto', description: 'Connect 4 in a row.', instructions: 'Click column to drop.' },
+  { id: 'color', title: 'Color Match', category: 'Puzzle', type: 'dom', thumbnail: 'https://placehold.co/600x400/0f172a/ec4899?text=Color+Match&font=roboto', description: 'Match text to color.', instructions: 'Click YES if the text matches the color.' }
+];
+
+export const CATEGORIES = ['All', 'Arcade', 'Classic', 'Action', 'Puzzle', 'Sports', 'Quick'];
